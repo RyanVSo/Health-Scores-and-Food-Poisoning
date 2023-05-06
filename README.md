@@ -24,7 +24,12 @@ All Java source files, .class files, and .jar files developed to clean the origi
 * Latitude - Float
 * Longitude - Float
 * Health Score Above 17 - Integer - {0, 1}
-
+Cleaning decreases the size of the data from 206149 rows to 104265 rows.
 
 # Inspection Profiling
-All Java source files, .class files, and .jar files developed to clean the original Health Inspection data are included in the Inspection Cleaning folder. The data is cleaned through process of Hadoop MapReduce.
+All Java source files, .class files, and .jar files developed to profile the original Health Inspection data are included in the Inspection Cleaning folder. The data is profiled through process of Hadoop MapReduce. Ultimately profiling yields critical counts, unique grade gounts, unique borough counts, and a total unique zipcode count.
+
+# Food Poisoning Profiling, Merging Datasets and Final Analytic Code
+main.scala is a scala file that profiles the Food Poisoning dataset, merges the two cleaned datasets, and ultimately conducts our analytic by utilizing Pearson correlation coefficient testing and calculations as well as multinomial logistic regression analysis.
+
+
