@@ -1,5 +1,5 @@
 # Health-Scores-and-Food-Poisoning
-This repository contains the source files, class files, and .jar files developed for the PBDAA Spring 2023 Final Project.
+This repository contains the source files, class files, and .jar files for a project analyzing the relationship between restaurant health scores and food poisoning cases reported by NYC OpenData. 
 
 # Original Data
 The original datasets downloaded from NYC OpenData can be found in the Original Data folder. These are both the food poisoning and health inspection datasets.
